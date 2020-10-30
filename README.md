@@ -1,6 +1,6 @@
 ![](https://ruigomes.me/bitcoin-address-validation.png?v=1)
 
-# bitcoin-address-validation
+# Wagerr-address-validation
 
 [![Build Status](https://img.shields.io/travis/ruigomeseu/bitcoin-address-validation.svg)](https://travis-ci.org/ruigomeseu/bitcoin-address-validation)
 [![npm version](https://badge.fury.io/js/bitcoin-address-validation.svg)](https://www.npmjs.com/package/bitcoin-address-validation)
