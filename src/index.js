@@ -115,7 +115,7 @@ const validateWgrAddress = (address) => {
 };
 
 const strictValidation = (address, network) => {
-  const validated = validateBtcAddress(address);
+  const validated = validateWgrAddress(address);
   if (!validated) return false;
   if (network) {
     if (validated.network !== network) return false;
