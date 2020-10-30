@@ -8,22 +8,22 @@ const base58 = baseX('123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz
 const sha256 = payload => Buffer.from(sha('sha256').update(payload).digest());
 
 const addressTypes = {
-  0x00: {
+  0x49: {
     type: 'p2pkh',
     network: 'mainnet'
   },
 
-  0x6f: {
+  0x41: {
     type: 'p2pkh',
     network: 'testnet'
   },
 
-  0x05: {
+  0x3f: {
     type: 'p2sh',
     network: 'mainnet'
   },
 
-  0xc4: {
+  0x7d: {
     type: 'p2sh',
     network: 'testnet'
   }
@@ -74,7 +74,7 @@ const validateBech32 = (address) => {
   };
 };
 
-const validateBtcAddress = (address) => {
+const validateWgrAddress = (address) => {
   if (!address) {
     return false;
   }

@@ -1,9 +1,9 @@
 {
-  "name": "bitcoin-address-validation",
+  "name": "@frndxyz/wagerr-address-validation",
   "version": "1.0.2",
-  "description": "Validate any Bitcoin address - Bech32, P2SH and P2PKH",
-  "homepage": "https://github.com/ruigomeseu/bitcoin-address-validation",
-  "bugs": "https://github.com/ruigomeseu/bitcoin-address-validation/issues",
+  "description": "Validate any Wagerr address - Bech32, P2SH and P2PKH",
+  "homepage": "https://github.com/frndxyz/wagerr-address-validation",
+  "bugs": "https://github.com/frndxyz/wagerr-address-validation/issues",
   "main": "./lib/index.cjs.js",
   "module": "./lib/index.esm.js",
   "unpkg": "./lib/index.umd.js",
@@ -16,7 +16,7 @@
   },
   "keywords": [
     "address",
-    "bitcoin",
+    "wagerr",
     "btc",
     "validation",
     "bech32",
@@ -31,7 +31,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ruigomeseu/bitcoin-address-validation"
+    "url": "git+ssh://git@github.com/frndxyz/wagerr-address-validation.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
