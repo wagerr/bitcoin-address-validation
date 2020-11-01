@@ -1,5 +1,5 @@
 {
-  "name": "@wagerr/wagerr-address-validation",
+  "name": "@wagerr-wdk/wagerr-address-validation",
   "version": "1.0.2",
   "description": "Validate any Wagerr address - Bech32, P2SH and P2PKH",
   "homepage": "https://github.com/wagerr/wagerr-address-validation",
@@ -32,9 +32,6 @@
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/wagerr/wagerr-address-validation.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
